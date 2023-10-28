@@ -1,5 +1,16 @@
 # E-COMMERCE - HUNT CODE -UTN FRSR
 
+
+
+
+
+
+
+https://github.com/CodeSystem2022/CuartoSemestre_IntegradorFinal_Ecommerce_HuntCode/assets/111921764/359e45c5-f3d2-43d6-93f3-eb6eb92e1154
+
+
+
+
 ## Introducción
 
 El E-COMMERCE que creamos es para permitit llegar a un mercado global, sin limitaciones geográficas, con el fin que se pueda vender los productos o servicios a clientes en cualquier parte del mundo.
@@ -30,5 +41,37 @@ La aplicación proporciona una amplia gama de características y funcionalidades
 - ✅Pruebas y control de calidad.
 - ✅Integración de servicios.
 - ✅Despliegue y mantenimiento.
-  
+
+
+  ### Etapa 2: Diseño
+
+- ✅ UX/UI.
+- ✅Catálogo.
+- ✅Integración de pasarelasdepago.
+- ✅Gestión(desarrola).
+- ✅Escalabilidad.
+
+
+### Etapa 3: Desarrollo
+
+- DISEÑO REPONSIVE
+- VELOCIDAD DE CARGA
+- CATÁLOGO DE VEHICULO
+- PASARELA DE PAGOS SEGURA
+
+
+## Conclusiones
+
+Durante el desarrollo del proyecto de examen sobre E-COMMERCE de consecionaria, se lograron obtener resultados significativos y valiosas lecciones fueron aprendidas.
+
+## Próximos Pasos
+- Lanzar a produccion el programa
+- Mejorar la eficiencia del código.
+- Agregar más funcionalidades.
+- Realizar pruebas de rendimiento.
+
+## Agradecimientos
+
+Agradecemos a nuestros compañeros,  y profes por su apoyo y enseñanza a largo de estos cuatros semestre. saludos cordiales.
+
 
