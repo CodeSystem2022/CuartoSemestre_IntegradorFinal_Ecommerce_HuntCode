@@ -17,7 +17,9 @@ El E-COMMERCE que creamos es para permitit llegar a un mercado global, sin limit
 
  Está dirigida a empleadores, empleados y profesionales de la seguridad laboral, y tiene como objetivo principal garantizar un ambiente de trabajo seguro y saludable para todos.
 
-La aplicación proporciona una amplia gama de características y funcionalidades para abordar diferentes aspectos de la seguridad e higiene laboral. Algunas de las características clave incluyen:
+La aplicación proporciona una amplia gama de características y funcionalidades para abordar diferentes aspectos en e-commerce. Algunas de las características clave incluyen:
+
+
 ## Objetivos
 
 - Objetivo 1:Disponibilidad 24/7, la tienda en línea estará abierta las 24 horas del día, los 7 días de la semana, lo que significa que los clientes pueden comprar en cualquier momento, lo que aumenta tus oportunidades de venta.
