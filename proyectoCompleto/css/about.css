@@ -1,0 +1,33 @@
+.container-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.text-column h1 {
+    font-size: 24px;
+}
+
+.text-column p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.image-column {
+    flex: 1;
+    text-align: center;
+}
+
+.image-column img {
+    max-width:50%;
+    height: auto;
+    border-radius: 20px;
+}
