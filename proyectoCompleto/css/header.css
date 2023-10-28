@@ -1,0 +1,106 @@
+
+body.mobile-menu-active {
+    overflow: hidden;
+}
+
+header{
+    background-color:rgba(0,0,0,0.9);
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 4;
+    top: 0px;
+    border-bottom:1px solid #03c4ff;
+}
+
+/* main menu */
+
+.menu-first-item-class {
+    margin: 0 10px; 
+}
+
+.menu-first-item-class a {
+    margin-right: 40px;
+    color: #fff;
+    text-transform: uppercase;
+  
+    font-size: 13px;
+    font-weight:700;
+    letter-spacing:2px;
+}
+
+.menu-first-item-class a:hover,
+.menu-first-item-class.active a {
+    padding-bottom: 1rem;
+    border-bottom: 4px solid #03c4ff;
+    color:#03c4ff;
+}
+
+.logo{
+    margin-left: 40px;
+    z-index: 4;
+}
+
+
+
+.logo img{
+    width: 6rem;
+    height: 5rem;
+}
+
+
+/* PARTE DE ICONOS*/
+
+#menu-icon-mobile  {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #fcf6f6;
+    font-size: 26px;
+    z-index: 2;
+    margin-right: 30px;
+    height: 5rem;
+    position: absolute; /* Cambia la posición según sea necesario */
+    top: 0; /* Ajusta la posición vertical */
+    right: 0;
+}
+
+#menu-mobile-icon-close {
+    display: none;
+}
+
+/* closed icon */
+
+body.mobile-menu-active #menu-mobile-icon-close {
+    display: block;   
+    color: #03c4ff;
+}
+
+/* hamburger icon */
+
+body.mobile-menu-active #menu-mobile-icon-open {
+    display: none;   
+}
+
+nav {
+    display: none;
+}
+
+body.mobile-menu-active nav {
+    display: block;
+}
+
+nav #menu-first {
+    display: flex;
+}
+
+/* social media icon - mobil-menu*/
+
+.ico{
+    display: none;
+  }
+
+

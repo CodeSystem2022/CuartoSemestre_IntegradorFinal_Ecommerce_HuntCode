@@ -1,0 +1,116 @@
+/* Móvil */
+@media (max-width: 767px) {
+    body h2, h1 {
+      font-size: 40px;
+    }
+  
+    body p {
+      font-size: 11px;
+      margin-right: 10px;
+    }
+  
+    .btn, .btn-light {
+      font-size: 11px;
+    }
+  
+    .slider_contents_row h1 {
+      font-size: 40px;
+    }
+  }
+  
+  /* Tablet */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    body h2, h1 {
+      font-size: 40px;
+    }
+  }
+  
+  /* Escritorio */
+  @media (min-width: 1024px) {
+    nav {
+      display: block;
+    }
+  
+    #menu-icon-mobile {
+      display: none;
+    }
+  
+    #slider {
+      display: block;
+    }
+  
+    #slider_mobile {
+      display: none;
+    }
+  
+    main {
+      padding-top: 30px;
+      background: rgb(15, 15, 15);
+      background: -webkit-linear-gradient(to right, #121212, #181818, #121212);
+      background: linear-gradient(to right, #121212, #181818, #121212);
+    }
+  
+    p {
+      margin-right: 10px;
+    }
+  
+    body.mobile-menu-active nav #menu-first {
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
+      z-index: 1;
+      background-color: #0e0e0d;
+    }
+  
+    .menu-first-item-class .descargar {
+      display: none;
+    }
+  
+    body.mobile-menu-active header {
+      justify-content: flex-end;
+    }
+  
+    .ico {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #menu-first .fab {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      color: #f70000;
+      font-size: 25px;
+      border: none;
+      padding-right: 40px;
+    }
+  
+    #menu-first .fab:hover {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      color: #f1e8e8;
+      border: none;
+      padding-right: 40px;
+      font-size: 25px;
+    }
+  
+    #menu-first .ico-1:hover,
+    #menu-first .ico-2:hover,
+    #menu-first .ico-3:hover {
+      border: none;
+      padding: 0;
+    }
+  
+    
+  }
+  

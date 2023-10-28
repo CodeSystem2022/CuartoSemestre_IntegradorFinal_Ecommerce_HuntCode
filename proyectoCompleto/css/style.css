@@ -1,0 +1,536 @@
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+  }
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    box-sizing: border-box;
+    outline:none;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    text-align: center;
+     font-family: 'Poppins', sans-serif;
+     overflow: hidden;
+     overflow-y:scroll;
+     word-wrap: break-word ;
+     height: 100vh;
+}
+
+body::-webkit-scrollbar{
+    background: #000000;
+    width: 6px;
+}
+
+body::-webkit-scrollbar-thumb{
+    border-radius: 1px;
+    background: #000000;
+}
+
+
+/** Globales **/
+
+h1{
+    color: #fff;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+h3, h2{
+    color: rgb(221, 216, 216);
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+h6{
+    color: rgb(221, 216, 216);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+p{
+    color: #fffefe;
+    font-weight:500;
+    padding-top: 1rem;
+    background:rgb(0,0,0,0.4);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+span{
+    color: #08d3f7;
+}
+
+
+.center{
+    text-align: center;
+}
+
+/*class button*/
+
+/*button one*/
+.btn{
+    font-size: 15px;
+    border: 2px solid #03C4FF;
+    color:#03C4FF;
+    text-transform: uppercase;
+    margin-left: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+
+
+.btn:active{
+    color:#03C4FF;
+}
+
+.btn:visited{
+    color: #03C4FF;
+}
+
+
+/*button two*/
+.btn-light{
+    font-size: 15px;
+    border: 0.1rem solid #03C4FF;
+    color:#ffffff;
+    background-color:rgba(0,0,0,0.7);
+    text-transform: uppercase;
+    margin-left: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    align-items: center;
+    border-radius: 2rem;
+    font-family: 700;
+    width: auto;
+
+}
+
+.btn-light:active{
+    color:#fff;
+
+
+}
+
+.btn-light:visited{
+    color: #fff;
+}
+
+.btn-light:hover{
+    color:#03C4FF;
+    border: 2px solid #fdfdfd;
+    background-color:rgba(0,0,0,0.7);
+    transition: 0.6s;
+}
+
+
+/* button three */
+.btn-square{
+   
+    font-size: 15px;
+    border: 2px solid #03C4FF;
+    color:#03C4FF;
+    text-transform: uppercase;
+    margin-left: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+ 
+   
+}
+
+
+.btn-square:hover{
+    color:#03C4FF;
+    border: 2px solid #03C4FF;
+    background: transparent;
+    transition: 0.2s;
+}
+
+.slider_background_video_animation video{
+    width: 100%;
+    height: 100%;
+    opacity: 0.80;
+    position: relative;
+  
+}
+
+
+
+.slider_contents_row{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.slider_contents_row img{
+    width: 600px;
+    height: 250px;
+}
+
+
+.slider_contents_row h1{
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: 4px solid #fff;
+    -webkit-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    transform: skew(-15deg);
+}
+.slider_contents_row span{
+    color: #03f7ce;
+}
+.slider_contents_row .btn-light{
+    margin-top: 30px;
+}
+
+#slider_mobile{
+    background: url(img/background.jpg) no-repeat #181818;
+    background-position: cover;
+    display: none;
+
+}
+.slider_mobile_contend_column h1{
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+ 
+}
+
+.slider_mobile_contend_column p{
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+
+/*   section 1, marcas*/
+.content-firtSection {
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+    margin: 2rem;
+    text-align: center; /* Alinea los párrafos a la izquierda */
+}
+
+.firstsection {
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    margin-top: 5px;
+    background: #030303;
+    background-position: center;
+}
+
+.firstsection h2 {
+    padding: 2rem;
+    text-align: center; /* Alinea el título a la izquierda */
+    font-size: 3rem;
+}
+
+
+.firstp {
+    margin-bottom: 1rem;
+}
+
+.firstsection img{
+  margin-top: 7rem;
+    max-width: 100%;
+    animation: moveUpDown 4s infinite;
+    overflow: hidden;
+   
+}
+
+.fistElement-title{
+    color: #03C4FF;
+    line-height: 1.4;
+}
+.buttonMarcas{
+    width: auto;
+    vertical-align: middle;
+    
+}
+
+
+
+.aboutSection{
+    background-color: #000;
+}
+
+.secondSection{
+    display: flex;
+    align-items: center;
+    columns: 200px 3;
+    column-gap: 30px;
+    background-color: black;
+    border: 1px solid #000; 
+    height: 80vh;
+    padding: 25px;
+
+}
+
+.container-about {
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center; /* Añadido para alinear verticalmente */
+    
+}
+
+.about_h2{
+    background-color:rgba(0,0,0,0.9);
+    border-radius: 20px;
+    padding: 4rem;
+    width: 100% ;
+    color:#03C4FF;
+    
+}
+
+.back{
+    background: none;
+    
+}
+
+article .p-about{
+    float: center;
+    align-items: center;
+    justify-items: center;
+    width:90%;
+    margin-bottom: 2rem;
+    line-height: 1.9 rem;
+    
+}
+article .img-about{
+    width: auto;
+    height:600px;
+    float: right;
+    text-align: center; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding-left: 3rem;
+ 
+    
+   
+}
+
+
+
+
+/*¨¨contacto*/ 
+
+.container{
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+.containerForm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000000;
+    margin-bottom: 0;
+}
+
+.containerDuoForm{
+display:flex;
+margin: 2rem;
+background-color: #000;
+}
+.contactImg{
+    height: 300px;;
+    margin: 0;
+    padding: 0;
+    display: block;
+    animation: moveUpDown 4s infinite;
+    overflow: hidden;
+    float: left;
+}
+
+.container h2{
+    padding: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+    float: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    color:#03C4FF;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+}
+
+
+/* Estilo del footer */
+
+
+/* Estilo general del footer */
+footer {
+    border-top: #03C4FF solid 2px;
+    background-color: #000000; /* Cambia el color de fondo según tus preferencias */
+    color: #fff; /* Color del texto en el footer */
+    padding: 20px;
+    text-align: center;
+  }
+  
+ 
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+
+  .footer-column img {
+    width: 200px;
+    height: auto;
+  }
+  
+
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+ 
+  .footer-column iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;;
+  }
+  
+
+  .footer-copyright {
+    margin-top: 20px;
+  }
+  
+
+
+/* Estilo del botón de WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px; /* Ajusta la posición vertical según tus preferencias */
+    right: 20px; /* Ajusta la posición horizontal según tus preferencias */
+    z-index: 1000; /* Asegura que esté en la parte superior */
+}
+
+.whatsapp-button a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color:  rgba(12, 15, 13, 0.8); /* Color de fondo de WhatsApp */
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(#06b2dd, 1, 1, 0.2); /* Sombra del botón */
+    transition: transform 0.2s ease;
+}
+
+.whatsapp-button a img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    animation: spin 5s linear infinite; 
+}
+
+
+.whatsapp-button a:hover {
+    transform: scale(1.1); /* Efecto de escala al pasar el cursor */
+    background: #b7e4f1;
+}
+
+
+
+
+/* animaciones*/
+
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0); /* Inicialmente, la imagen no se mueve */
+    }
+    50% {
+        transform: translateY(-10px); /* En el punto medio, la imagen se mueve hacia arriba */
+    }
+    100% {
+        transform: translateY(10); /* Al final, la imagen vuelve a su posición original */
+    }
+}
+
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); } /* Gira 360 grados para crear un efecto continuo */
+}
+
