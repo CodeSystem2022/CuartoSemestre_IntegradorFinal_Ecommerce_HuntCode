@@ -1,3 +1,8 @@
+
+body{
+    background-color: black;
+}
+
 .container-about{
     display: flex;
     align-items: center;
@@ -5,6 +10,7 @@
     max-width: auto;
     margin: 0 auto;
     padding: 20px;
+    background-color: black;
 }
 
 .text-column {
@@ -18,7 +24,7 @@
 
 .text-column p {
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.9;
 }
 
 .image-column {
@@ -27,7 +33,18 @@
 }
 
 .image-column img {
-    max-width:50%;
+    max-width:100%;
     height: auto;
     border-radius: 20px;
+    
 }
+.paragraphAbout{
+    padding-top: 5rem;  
+    font-size: 1rem;
+    background-color: black;
+  }
+
+  h2{
+    color:#06b2dd ;
+  }
+  
