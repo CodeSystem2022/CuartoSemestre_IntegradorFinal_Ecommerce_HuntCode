@@ -1,0 +1,53 @@
+*{
+    background-color: #000000;
+}
+body {
+    background-color: #000000;
+  }
+  main {
+    padding-top: 5rem;
+  }
+  
+  .container {
+   
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #000000; /* Fondo negro */
+    text-align: center;
+    white-space: nowrap;
+    text-align: left;
+  }
+  
+  ::placeholder {
+    color: rgb(73, 72, 72);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+  }
+  
+  label, input, textarea {
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #03c4ff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    background-color: #03c4ff;
+    width: 40px;
+  }
+  

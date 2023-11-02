@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 
 @font-face {
@@ -536,13 +536,9 @@ footer {
     100% { transform: rotate(360deg); } /* Gira 360 grados para crear un efecto continuo */
 }
 
-=======
-* {  /*Alineación*/
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+
+
+  /*****  CSS DE DAI , VER QUE PARTE AFECTA DE SUS HTML *****/
   body {
     background-image: url('src/desktop-wallpaper-black-car-u-black-car.jpg');
     background-repeat: no-repeat;
@@ -641,4 +637,4 @@ footer {
       background-color: #00CCFF; /* Cambiar el color al hacer hover */
     }
   }
->>>>>>> 5bc997d6bafeb64b13e0d3ef2a2ddf5ac9926af5
+

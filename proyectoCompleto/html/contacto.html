@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="../css/header.css" " >
     <link rel="stylesheet" type="text/css" href="../css/style.css"  >
     <link rel="stylesheet" type="text/css" href="../css/mediaqueries.css"  >
+    <link rel="stylesheet" href="../css/contactoStyles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -64,8 +65,34 @@
         </nav>
     </header>
 
+<main> 
+  <p>En <em>FAST CARS</em>  , estamos aquí para atender tus consultas, resolver tus dudas y ayudarte a encontrar el plan de autos perfecto que se adapte a tus necesidades. Ya sea que estés buscando información sobre nuestros últimos modelos, tarifas de financiamiento o simplemente desees obtener asesoramiento experto sobre la compra de un automóvil, nuestro equipo está listo para ayudarte.</p>
+  <div class="container">
+    <h2>Contacto</h2>
+    <form id="contactForm" action="enviar.php" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required placeholder="Ramirez Juan">
+
+      <label for="correo">Correo Electrónico:</label>
+      <input type="email" id="correo" name="correo" placeholder="ramirezJ@xxxmail.com" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required placeholder="Hola, mi consulta es por: "></textarea>
+      
+      <label for="opciones">Selecciona una opción:</label>
+        <select id="opciones" name="opciones">
+          <option value="opcion1">Opción 1</option>
+          <option value="opcion2">Opción 2</option>
+          <option value="opcion3">Opción 3</option>
+        </select>
 
 
+      <button type="submit" class="">Enviar</button>
+    </form>
+  </div>
+
+
+</main>
 
     
     <footer>
@@ -95,7 +122,7 @@
         </div>
       </footer>
       
-
+      <script src="../js/contactoJs.js"></script>
 
 </body>
 
