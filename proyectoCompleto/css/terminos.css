@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -53,3 +54,60 @@ a {
 a:hover {
     text-decoration: underline;
 }
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #000;
+    color: #FFF;
+}
+
+h1 {
+    font-size: 24px;
+    color: #00FFFF ;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para los números de sección */
+h2::before {
+    content: counter(section) ". ";
+    counter-increment: section;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Estilo para el enlace de la política de privacidad */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+>>>>>>> 71ed9065b01133e8207afc948a8fd1ce09427452

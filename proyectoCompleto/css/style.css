@@ -1,10 +1,6 @@
 
 
 
-@font-face {
-    font-family: 'Open Sans';
-    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
-  }
 *{
     margin:0;
     padding:0;
@@ -24,7 +20,7 @@ html{
     font-family: 'Open Sans', sans-serif;
     
 }
-body {
+/* body {
     font-family: Arial, sans-serif;
     background-color: #000000;
     text-align: center;
@@ -34,6 +30,31 @@ body {
      word-wrap: break-word ;
      height: 100vh;
 }
+*/
+
+body {
+    background-color: #000000;
+    text-align: center;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex; 
+    flex-direction: column;
+     height: 100vh;
+     align-items: center;
+     
+    
+}
+    /*
+    
+  
+   
+   
+   
+    
+   
+         justify-content: center; 
+  } 
+*/
 
 body::-webkit-scrollbar{
     background: #000000;
@@ -85,13 +106,15 @@ span{
 }
 
 
-.center{
+.center, .center-buttons{
     text-align: center;
 }
+
 
 /*class button*/
 
 /*button one*/
+/**
 .btn{
     font-size: 15px;
     border: 2px solid #03C4FF;
@@ -105,6 +128,21 @@ span{
     display: inline-block;
     border-radius: 20px;
 }
+**/
+.btn {
+    font-size: 15px;
+    border: 2px solid #03C4FF;
+    color: #03C4FF;
+    text-transform: uppercase;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 0; /* Elimina el margen izquierdo */
+  }
+  
 
 
 
@@ -118,6 +156,8 @@ span{
 
 
 /*button two*/
+
+/* 
 .btn-light{
     font-size: 15px;
     border: 0.1rem solid #03C4FF;
@@ -136,7 +176,27 @@ span{
     width: auto;
 
 }
+*/
 
+
+.btn-light {
+    font-size: 15px;
+    border: 0.1rem solid #03C4FF;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    align-items: center;
+    border-radius: 2rem;
+    font-family: 700;
+    width: auto;
+    margin: 0; /* Elimina el margen izquierdo */
+  }
+  
 .btn-light:active{
     color:#fff;
 
@@ -429,13 +489,15 @@ footer {
     color: #fff; /* Color del texto en el footer */
     padding: 20px;
     text-align: center;
+    display: flex-box;
   }
   
  
   .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    width: 100vw;
   }
   
   .footer-column {

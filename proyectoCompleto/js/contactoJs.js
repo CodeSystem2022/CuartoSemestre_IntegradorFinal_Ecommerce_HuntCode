@@ -7,7 +7,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
   
     
   
-    // Ejemplo de AJAX: si lo usamos por ahora no
+    // Ejemplo de AJAX: si lo usamos por ahora no vamos a ver si nos funciona php
     /*
     var xhr = new XMLHttpRequest();
     xhr.open("POST", "enviar.php", true);

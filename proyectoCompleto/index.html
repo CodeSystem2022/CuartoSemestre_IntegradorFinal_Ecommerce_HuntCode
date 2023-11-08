@@ -3,14 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fast Cars</title>
    
-    <link rel="stylesheet" type="text/css" href="../css/normalize.css"  >
-    <link rel="stylesheet" type="text/css" href="../css/header.css" " >
-    <link rel="stylesheet" type="text/css" href="../css/style.css"  >
-    <link rel="stylesheet" type="text/css" href="../css/mediaqueries.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"  >
+    <link rel="stylesheet" type="text/css" href="css/header.css" " >
+    <link rel="stylesheet" type="text/css" href="css/style.css"  >
+    <link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,14 +19,14 @@
    
 
     <script src="https://kit.fontawesome.com/d54fb62c44.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="../src/img/LOGO2.png" type="auto logo">
+    <link rel="shortcut icon" href="src/img/LOGO2.png" type="auto logo">
     <script src="../js/header.js"></script>
 </head>
 
 <body>
     <header>
         <article>
-            <a class="logo" href="index.html"><img src="../src/img/LOGO2.png" alt="Logo"></a>
+            <a class="logo" href="index.html"><img src="src/img/LOGO2.png" alt="Logo"></a>
         </article>
 
 
@@ -40,7 +41,7 @@
                 </li>
                 
                 <li class="menu-first-item-class">
-                    <a href="#Marcas">Marcas</a>
+                    <a href="marcas.html">Marcas</a>
                 </li>
                 <li class="menu-first-item-class">
                     <a href="#Planes">Planes</a>
@@ -77,7 +78,7 @@
             </article>
 
             <article class="slider_background_video_animation">
-                <video id="video" src="../src/img/videoportadaweb.mp4" autoplay muted loop></video>
+                <video id="video" src="src/img/videoportadaweb.mp4" autoplay muted loop></video>
             </article>
         </section>
 
@@ -98,7 +99,7 @@
                 </article>
 
                 <article class="img-firstSection">
-                    <img src="../src/permuta.png">
+                    <img  class="imgMustang" src="src/permuta.png">
                 </article>
      </section> 
 
@@ -144,7 +145,7 @@
               
         </article>
             <article class="img-about">
-                <img class="img-about" src="../src/img/aboutwe.jpg">
+                <img class="img-about" src="src/img/aboutwe.jpg">
             </article>
         </div>
       
@@ -159,7 +160,7 @@
         <h2 class="fistElement-title">Contactanos</h2>
         <div class="containerDuoForm">
                             <div class="containerForm">
-                                <form id="contactForm" action="#" method="post">
+                                <form id="contactForm"  action="../php/procesarform.php" method="POST">
                                     <div class="form-group">
                                         <label for="name">Nombre:</label>
                                         <input type="text" id="name" name="name"  required>
@@ -171,15 +172,21 @@
                                     </div>
                         
                                     <div class="form-group">
+                                        <label for="numero"> Telefono:</label>
+                                        <input type="number" id="numero" name="numero" required>
+                                    </div>
+
+                                    <div class="form-group">
                                         <label for="message">Mensaje:</label>
                                         <textarea id="message" name="message" required></textarea>
                                     </div>
+                                    
                         
                                     <button type="submit" class ="btn-light buttonMarcas center">Enviar</button>
                                 </form>
                             </div>
 
-            <img  class="contactImg"src="../src/img/contactanos.svg">
+            <img  class="contactImg"src="src/img/contactanos.svg">
 
         </div>
        
@@ -195,7 +202,7 @@
     <div class="whatsapp-button">
         <a href="https://wa.me/2604727323" target="_blank"> <!--No se de quien es el numero solo lo invente, cuidado cuando prueben-->
 
-            <img src="../src/img/icons8-whatsapp-64.png" alt="WhatsApp">
+            <img src="src/img/icons8-whatsapp-64.png" alt="WhatsApp">
         </a>
     </div>
    
@@ -207,13 +214,13 @@
         <div class="footer-content">
           <div class="footer-column">
             <!-- Columna Izquierda - Logo -->
-            <img class="logoFooter" src="../src/img/LOGO2.png">
+            <img class="logoFooter" src="src/img/LOGO2.png">
           </div>
           <div class="footer-column">
             <!-- Columna del Medio - Menú -->
             <ul>
               <li><a href="index.html">Inicio</a></li>
-              <li><a href="#">Marcas</a></li>
+              <li><a href="marcas.html">Marcas</a></li>
               <li><a href="nosotros.html">Nosotros</a></li>
               <li><a href="#">Planes</a></li>
               <li><a href="contacto.html">Contacto</a></li>
