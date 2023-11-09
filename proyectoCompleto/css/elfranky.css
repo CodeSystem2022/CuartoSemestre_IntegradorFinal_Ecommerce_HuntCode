@@ -29,10 +29,10 @@ aside#der {
     margin-top:5rem;
     overflow-x: hidden;
     position: absolute;
-    right: 2rem;
+    right: 3rem;
     top: 0;
-    width: 200px;
-    height: 20rem;
+    width: 400;
+    height: 11rem;
     background-color: rgba(0, 0, 0, 0.5); /* Color negro con 50% de transparencia */  
     padding: 10px; /* Agrega un espacio interno al aside */
     box-sizing: border-box; /* Incluye el padding en el ancho total */
@@ -41,9 +41,9 @@ aside#der {
 
 aside#der h1 {
     
-    line-height: 40px;
+    line-height: 5px;
     text-align: center;
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -58,7 +58,7 @@ aside#der input {
 
 input {
     height: 1.5rem;
-    background-color: rgba(245, 239, 239, 0.5); /* Color negro con 50% de transparencia */  
+    background-color: rgba(242, 234, 234, 0.5); /* Color negro con 50% de transparencia */  
 }
 
 .enviar{
@@ -95,7 +95,7 @@ input {
 }
 
 .centered-text h1 {
-    font-size: 72px; /* Ajusta el tamaño de fuente */
+    font-size: 10px; /* Ajusta el tamaño de fuente */
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

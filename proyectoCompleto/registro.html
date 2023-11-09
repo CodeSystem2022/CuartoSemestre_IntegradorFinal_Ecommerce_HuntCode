@@ -69,17 +69,17 @@
       </header>
   
 
-  <section class="form-register">
+  <form action="php/registroUsuario.php" method="POST" class="form-register">
     <h4>Formulario Registro</h4> <!--Campos de entrada-->
-    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+    <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre">
+    <input class="controls" type="text" name="apellido" id="apellido" placeholder="Ingrese su Apellido">
     <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-    <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+    <input class="controls" type="password" name="clave" id="clave" placeholder="Ingrese su Contraseña">
     <input type="checkbox" id="acepto-terminos">
     <label for="acepto-terminos">Acepto los <a href="terminos.html">Términos y Condiciones</a>.</label> <!--Casilla de verificacion-->
 
     <input class="botons" type="submit" value="Registrar">
-    <a href="iniciarsesion.html">Ya tengo cuenta</a> <span> | </span>  <!--enlace a iniciar sesion-->
+    <a href="index.html">Ya tengo cuenta</a> <span> | </span>  <!--enlace a pagina principal-->
 
    
     <a href="recuperarcont.html">Recuperar Contraseña</a> <!--recuperar contraseña-->
