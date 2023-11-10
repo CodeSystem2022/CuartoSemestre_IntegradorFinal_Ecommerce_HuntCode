@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+.carrusel {
+    position: relative;
+    width: 100%;
+}
+
+.flecha-izquierda,
+.flecha-derecha {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.flecha-izquierda {
+    left: 10px;
+}
+
+.flecha-derecha {
+    right: 10px;
+}
+
+.imagenes {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.imagen {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.comprar {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.imgCarrusel{
+    width: auto !important;
+    height:30rem !important;
+}

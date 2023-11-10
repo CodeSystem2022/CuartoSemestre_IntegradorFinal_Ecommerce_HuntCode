@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/header.css" " >
     <link rel="stylesheet" type="text/css" href="css/style.css"  >
     <link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
+    <link rel="stylesheet" type="text/css" href="css/marcas.css">
    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,11 +67,37 @@
         </nav>
     </header>
 
-    <main> 
+    <main class="container">
+        <h1>Las marcas de tus autos preferidos</h1>
+        <div class="carrusel">
+            <button class="flecha-izquierda">&lt;</button>
+            <div class="imagenes">
+                <div class="imagen">
+                    <h2>TOYOTA</h2>
+                    <p>Los mejores vehículos de tracción, etc.</p>
+                    <img class="imgCarrusel" src="src/permuta.png" alt="Toyota Image 1">
+                    <button class="comprar">Comprar</button>
+                </div>
 
+                <div class="imagen">
+                    <h2>TOYOTA</h2>
+                    <p>Los mejores vehículos de tracción, etc.</p>
+                    <img src="src/src/desktop-wallpaper-black-car-u-black-car.jpg" alt="Toyota Image 1">
+                    <button class="comprar">Comprar</button>
+                </div>
 
-        
+                <div class="imagen">
+                    <h2>TOYOTA</h2>
+                    <p>Los mejores vehículos de tracción, etc.</p>
+                    <img src="src/permuta.png" alt="Toyota Image 1">
+                    <button class="comprar">Comprar</button>
+                </div>
+                <!-- Repite esta estructura para cada imagen adicional -->
+            </div>
+            <button class="flecha-derecha">&gt;</button>
+        </div>
     </main>
+
 
 
     <footer>
@@ -102,6 +129,7 @@
       
       <script src="../js/contactoJs.js"></script>
       <script src="../js/alertaFomEnviado.js"></script>
+      <script src="../js/carousel.js"></script>
 
 </body>
 
