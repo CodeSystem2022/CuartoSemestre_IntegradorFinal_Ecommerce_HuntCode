@@ -1,0 +1,256 @@
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fondo{
+    background-image: url(/src/img/Auto2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	width: 100%;
+    height: 700px;
+	background-color: rgba(255, 255, 255, 0.7);
+	/*opacity: 70%;*/
+	overflow: hidden;
+}
+
+#fondo h1{
+    color: #ffffff;
+	font-weight: bold;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 70px;
+	opacity: 100%;
+	background: linear-gradient(#03C4FF, #0011fa);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	animation: text 5s linear infinite;
+}
+
+@keyframes text {
+	0% {
+		filter: hue-rotate(0deg);
+	}
+	100% {
+		filter: hue-rotate(360deg)
+	}
+
+}
+
+.banner {
+	background-color: #435e66d8; /* Cambia el color de fondo según tu preferencia */
+	color: white; /* Cambia el color del texto según tu preferencia */
+	text-align: center;
+	padding: 20px; /* Ajusta el espacio interior del banner */
+	font-size: 40px; /* Cambia el tamaño de fuente según tu preferencia*/
+}
+
+.banner h5 {
+	margin: 0; /* Elimina el margen predeterminado del encabezado h1 */
+	animation: desplazamiento 10s linear infinite; /* Ajusta la velocidad de desplazamiento y duración según tu preferencia */
+}
+
+@keyframes desplazamiento {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+
+h3 {
+    color: #ffffff; /* Color */
+    text-align: center;
+	font-size: 30px;
+}
+
+h4 {
+    color: #03C4FF; /* Color */
+    text-align: center;
+	font-size: 40px;
+}
+
+.mi-boton {
+    background-color: #03C4FF; /* Color de fondo celeste */
+    color: #fff; /* Color del texto blanco */
+	border-radius: 10px;
+	margin-top: 50px;
+	font-weight: bold;
+	font-size: 40px;
+	display: block;
+    margin: 0 auto;
+	padding: 10px 20px; /* Relleno para el botón */
+    border: none; /* Sin borde */
+	cursor: pointer;
+}
+
+.mi-boton:hover {
+	transform: translateY(-5px); /* Aplica el efecto de flotación al pasar el ratón */
+}
+
+h2 {
+	color: #ffffff; /* Color blanco */
+    text-align: center;
+	font-size: 40px;
+	line-height: 0.5;
+}
+
+.container {
+	text-align: center;
+  }
+  
+.boton-compra {
+    background-color: #6a7f85; /* Color de fondo celeste */
+    color: inherit; /* Color del texto blanco */
+	color: #fff;
+	margin-top: auto;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 60px;
+	display: inline-block;
+	margin: 120px;
+    padding: 10px 20px; /* Relleno para el botón */
+    border: none; /* Sin borde */
+    cursor: pointer;
+}
+
+.boton-compra:hover {
+	transform: translateY(-5px); /* Aplica el efecto de flotación al pasar el ratón */
+}
+
+
+.propuesta {
+	display: flex; /* Utilizamos flexbox para crear tres columnas en una fila */
+	justify-content: space-between; /* Espacio igual entre las columnas */
+}
+  
+.formas {
+	flex-basis: 30%; /* Ancho igual para cada columna */
+}
+  
+  /* Estilos adicionales (puedes personalizarlos según tus necesidades) */
+.presentacion {
+	border: 1px solid #03C4FF;
+	border-radius: 10px;
+	padding: 10px;
+	/*margin: 10px;*/
+}
+
+.tit {
+	font-size: 50px;
+	color: #03C4FF; /* Cambiar el color del texto */
+	margin-top: 5px;
+	text-align: center;
+	font-weight: bold; 
+	/*padding: 0px; /* Añade relleno alrededor del texto */
+}
+
+.tex {
+	font-size: 10px;
+	color: #ffffff; /* Cambiar el color del texto */
+	margin-top: 5px;
+	text-align: center;
+	font-weight: bold; 
+	border-radius: 10px; /* Bordes redondeados */
+	/*padding: 0px; /* Añade relleno alrededor del texto */
+}
+
+.contenedor-centrado {
+    text-align: center;
+    margin-top: 35px; /* Espacio superior entre el título y los botones */
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	text-align: center;
+	gap: 20px;
+}
+  
+.columna {
+	flex: 1;
+	padding: 25px;
+	box-sizing: border-box;
+	margin-right: 20px;
+}
+
+.columna:last-child {
+	margin-right: 0;
+}
+
+.contenido {
+	display: flex;
+	flex-direction: column; /* Establece el texto encima de la imagen */
+	align-items: center;
+}
+  
+.contenido img {
+	max-width: 100%;
+	max-height: 300px; /* Establece una altura máxima para las imágenes */
+	border: 5px solid #03C4FF;
+	border-radius: 10px;
+	float: left;
+	margin-bottom: 20px;
+}
+  
+.contenido p {
+	margin-top: 15px; /* Agrega espacio entre el texto y la imagen */
+}
+
+.texto {
+	font-size: 35px;
+	color: #000000; /* Cambiar el color del texto */
+	background-color: #03C4FF; /* Fondo de ese color */
+	margin-top: 10px;
+	font-weight: bold; 
+	border-radius: 10px; /* Bordes redondeados */
+	border: 2px #03C4FF;
+	padding: 20px; /* Añade relleno alrededor del texto */
+}
+
+
+p {
+	color: #ffffff; /* Color blanco */
+    text-align: center;
+	font-size: 25px;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #000000;
+}
+
+.imagen, .tit {
+    max-width: 100%; /* Asegura que las imágenes no sean más anchas que su contenedor */
+}
+
+@media screen and (max-width: 600px) {
+    .iamgen, .tit {
+        width: 100%; /* Hace que las imágenes ocupen el 100% del ancho disponible */
+    }
+}
+
+
+.texto, .tex {
+    font-size: 30px; /* Tamaño de fuente predeterminado para pantallas más grandes */
+}
+
+/* Media query para cambiar el diseño cuando la pantalla es más estrecha */
+@media screen and (max-width: 600px) {
+    .texto, .tex, .boton-compra {
+        font-size: 14px; /* Tamaño de fuente más pequeño para pantallas más estrechas */
+    }
+}
