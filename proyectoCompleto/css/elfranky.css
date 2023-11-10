@@ -3,39 +3,38 @@
 
 
 
-/* Estilos para los botones */
+
 a.botones:hover {
-    text-decoration: underline aqua;
-   /*  background: aqua;*/
+    text-decoration: underline ;
+ 
     color:rgb(255, 254, 254) ;
     font-weight: 700;
     
-    /* Cambia el color de fondo al pasar el puntero sobre el botón */
+   
 }
 
 a.botones:active {
     background: rgba(255, 0, 100, 1);
-    /* Cambia el color de fondo cuando el botón está activo (presionado) */
+   
 }
 
 
 
 
-/* Estilos para el formulario en el aside */
 aside#der {
     z-index: 999;
     border-radius:2rem ;
     color: aqua;
     margin-top:5rem;
-    overflow-x: hidden;
+   
     position: absolute;
     right: 3rem;
     top: 0;
-    width: 400;
-    height: 11rem;
-    background-color: rgba(0, 0, 0, 0.5); /* Color negro con 50% de transparencia */  
-    padding: 10px; /* Agrega un espacio interno al aside */
-    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    width: 300px;
+    height: 17rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    box-sizing: border-box; 
 
 }
 
@@ -51,14 +50,14 @@ aside#der h1 {
 
 aside#der input {
     padding: 10px;
-    margin: 5px 0; /* Corrige la coma en el valor del margen */
-    width: 100%; /* Aprovecha el ancho completo disponible */
-    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box; 
 }
 
 input {
-    height: 1.5rem;
-    background-color: rgba(242, 234, 234, 0.5); /* Color negro con 50% de transparencia */  
+    height: 1.5rem !important; 
+    background-color: rgba(242, 234, 234, 0.5) ;
 }
 
 .enviar{
@@ -66,14 +65,15 @@ input {
     height: 1.5rem;
  
 }
-/* Contenedor envolvente */
+
 .wrapper {
-    min-height: 100%; /* Al menos el 100% de la altura disponible */
+    min-height: 100%;
     display: flex;
     flex-direction: column;
 }
 .container {
-    flex: 1; /* Ocupa el espacio disponible */
+    flex: 1; 
+
 }
 
 
@@ -95,30 +95,29 @@ input {
 }
 
 .centered-text h1 {
-    font-size: 10px; /* Ajusta el tamaño de fuente */
+    font-size: 10px;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 
-/* Ajustes específicos para dispositivos móviles */
+
 @media (max-width: 768px) {
     body {
         box-sizing: border-box;
-        font-size: 14px; /* Reducimos el tamaño de fuente para dispositivos móviles */
+        font-size: 14px; 
     }
     
-    /* Ajustes específicos para ciertos elementos */
-    /* Ejemplo: */
+   
     aside#der {
         width: 100%;
-        max-width: 300px; /* Limitamos el ancho del aside */
+        max-width: 300px; 
         margin-top: 10rem;
         padding: 1rem;
         box-sizing: border-box;
         margin-left: 10px;
 
-        max-width: calc(100% - 65px); /* Resta el margen izquierdo */
+        max-width: calc(100% - 65px); 
         
     }
 
@@ -138,3 +137,39 @@ input {
         height: 2rem;
    }
 }
+
+
+
+
+
+
+
+
+
+
+
+.opciones-login a:hover {
+    text-decoration: underline;
+    color: #1d70b8;
+}
+
+.enviar{
+    background-color:#3498db ;
+}
+.enviar:hover {
+    background-color: #3498db;
+    border-radius: 20px;
+    transition: all 1s ease;
+    transform: scale(1.1 );
+}
+
+.opciones-login {
+    margin-top: 20px;
+}
+
+.opciones-login a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+

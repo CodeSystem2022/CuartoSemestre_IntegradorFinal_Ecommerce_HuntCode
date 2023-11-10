@@ -5,7 +5,7 @@
 }
 
 #fondo{
-    background-image: url(/src/img/Auto2.jpg);
+    background-image: url(../src/img/Auto2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
