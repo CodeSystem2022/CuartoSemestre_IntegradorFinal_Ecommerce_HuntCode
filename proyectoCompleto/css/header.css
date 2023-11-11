@@ -1,4 +1,8 @@
 
+body {
+    overflow-x: hidden;
+}
+
 body.mobile-menu-active {
     overflow: hidden;
 }
@@ -14,6 +18,7 @@ header{
     z-index: 4;
     top: 0px;
     border-bottom:1px solid #03c4ff;
+     
 }
 
 /* main menu */
@@ -63,9 +68,10 @@ header{
     z-index: 2;
     margin-right: 30px;
     height: 5rem;
-    position: absolute; /* Cambia la posición según sea necesario */
+    position: relative; /* Cambia la posición según sea necesario */
     top: 0; /* Ajusta la posición vertical */
     right: 0;
+    margin-right: 10px;
 }
 
 #menu-mobile-icon-close {
@@ -82,10 +88,12 @@ body.mobile-menu-active #menu-mobile-icon-close {
 /* hamburger icon */
 
 body.mobile-menu-active #menu-mobile-icon-open {
-    display: none;   
+    display: none;
+       
 }
 
 nav {
+    
     display: none;
 }
 
@@ -95,6 +103,7 @@ body.mobile-menu-active nav {
 
 nav #menu-first {
     display: flex;
+    
 }
 
 /* social media icon - mobil-menu*/

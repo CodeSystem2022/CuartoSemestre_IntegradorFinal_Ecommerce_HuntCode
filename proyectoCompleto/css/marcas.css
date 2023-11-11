@@ -1,67 +1,67 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    text-align: center;
-    margin: 20px;
-}
-
-.carrusel {
+.slider-container {
+    background: rgb(0, 0,0);
+    padding-top: 5rem;
+    padding-bottom: 6rem;
     position: relative;
-    width: 100%;
+    height: 100vh; 
 }
 
-.flecha-izquierda,
-.flecha-derecha {
-    position: absolute;
+.position {
+    position: relative ;
+    margin-top: -5rem;
     top: 50%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    cursor: pointer;
-    background: none;
-    border: none;
-    outline: none;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.flecha-izquierda {
-    left: 10px;
+.slider{
+    background-image: url(../src/src/logos.png);
+    background-size: cover;
+    height: 500px;
+    width: 50%;
+    border-radius: 10px;
+    transition: 100ms;
+    animation: animate 20s infinite ease;
 }
 
-.flecha-derecha {
-    right: 10px;
+@keyframes animate{
+    20%{
+        background-image: url(../src/src/pexels-garvin-st-villier-5270090.jpg);
+        background-size: cover;
+       
+    }
+    40%{
+        background-image: url(../src/src/ford.jpg);
+        background-size: cover;
+    }
+    60%{
+        background-image: url(../src/src/fiat-pulse-2022.jpg);
+        background-size: cover;
+    }
+    80%{
+        background-image: url(../src/src/Volkswagen-ID.-GTI-Concept-1.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(../src/src/auto.jpg);
+        background-size: cover;
+    }
 }
 
-.imagenes {
-    display: flex;
-    overflow: hidden;
-    width: 100%;
-}
 
-.imagen {
-    flex: 0 0 100%;
-    box-sizing: border-box;
-    text-align: center;
-    padding: 20px;
-}
+/* Responsividad */
+@media screen and (max-width: 768px) {
+   
 
-.imagen img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 10px;
-}
+ 
+    .slider-container {
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
 
-.comprar {
-    background-color: #3498db;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.imgCarrusel{
-    width: auto !important;
-    height:30rem !important;
+  
+    .slider {
+        width: 100%;
+        height: 300px;
+    }
 }
