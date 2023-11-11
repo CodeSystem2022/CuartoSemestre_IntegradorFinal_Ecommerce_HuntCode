@@ -20,17 +20,7 @@ html{
     font-family: 'Open Sans', sans-serif;
     
 }
-/* body {
-    font-family: Arial, sans-serif;
-    background-color: #000000;
-    text-align: center;
-     font-family: 'Poppins', sans-serif;
-     overflow: hidden;
-     overflow-y:scroll;
-     word-wrap: break-word ;
-     height: 100vh;
-}
-*/
+
 
 body {
     background-color: #000000;
@@ -44,17 +34,7 @@ body {
      
     
 }
-    /*
-    
-  
-   
-   
-   
-    
-   
-         justify-content: center; 
-  } 
-*/
+
 
 body::-webkit-scrollbar{
     background: #000000;
@@ -67,7 +47,6 @@ body::-webkit-scrollbar-thumb{
 }
 
 
-/** Globales **/
 
 h1{
     color: #fff;
@@ -111,24 +90,6 @@ span{
 }
 
 
-/*class button*/
-
-/*button one*/
-/**
-.btn{
-    font-size: 15px;
-    border: 2px solid #03C4FF;
-    color:#03C4FF;
-    text-transform: uppercase;
-    margin-left: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: inline-block;
-    border-radius: 20px;
-}
-**/
 .btn {
     font-size: 15px;
     border: 2px solid #03C4FF;
@@ -140,9 +101,8 @@ span{
     padding-bottom: 10px;
     display: inline-block;
     border-radius: 20px;
-    margin: 0; /* Elimina el margen izquierdo */
-  }
-  
+    margin: 0; 
+}
 
 
 
@@ -153,30 +113,6 @@ span{
 .btn:visited{
     color: #03C4FF;
 }
-
-
-/*button two*/
-
-/* 
-.btn-light{
-    font-size: 15px;
-    border: 0.1rem solid #03C4FF;
-    color:#ffffff;
-    background-color:rgba(0,0,0,0.7);
-    text-transform: uppercase;
-    margin-left: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: inline-block;
-    align-items: center;
-    border-radius: 2rem;
-    font-family: 700;
-    width: auto;
-
-}
-*/
 
 
 .btn-light {
@@ -314,12 +250,12 @@ span{
     flex-wrap: wrap;
   justify-content: center;
     margin: 2rem;
-    text-align: center; /* Alinea los párrafos a la izquierda */
+    text-align: center; 
 }
 
 .firstsection {
     display: flex;
-    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    align-items: flex-start; 
     margin-top: 5px;
     background: #030303;
     background-position: center;
@@ -327,7 +263,7 @@ span{
 
 .firstsection h2 {
     padding: 2rem;
-    text-align: center; /* Alinea el título a la izquierda */
+    text-align: center;
     font-size: 3rem;
 }
 
@@ -552,10 +488,10 @@ footer {
     display: block;
     width: 60px;
     height: 60px;
-    background-color:  rgba(12, 15, 13, 0.8); /* Color de fondo de WhatsApp */
+    background-color:  rgba(12, 15, 13, 0.8); 
     text-align: center;
     border-radius: 50%;
-    box-shadow: 0 2px 10px rgba(#06b2dd, 1, 1, 0.2); /* Sombra del botón */
+    box-shadow: 0 2px 10px rgba(#06b2dd, 1, 1, 0.2); 
     transition: transform 0.2s ease;
 }
 
@@ -568,7 +504,7 @@ footer {
 
 
 .whatsapp-button a:hover {
-    transform: scale(1.1); /* Efecto de escala al pasar el cursor */
+    transform: scale(1.1); 
     background: #b7e4f1;
 }
 

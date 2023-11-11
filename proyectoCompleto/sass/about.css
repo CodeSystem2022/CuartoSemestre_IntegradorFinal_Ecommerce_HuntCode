@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+}
+
+.container-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: black;
+}
+
+.text-column {
+  flex: 1;
+  padding: 20px;
+}
+.text-column h1 {
+  font-size: 24px;
+}
+.text-column p {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.image-column {
+  flex: 1;
+  text-align: center;
+}
+.image-column img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.paragraphAbout {
+  padding-top: 5rem;
+  font-size: 1rem;
+  background-color: black;
+}
+
+h2 {
+  color: #06b2dd;
+}
+
+/*# sourceMappingURL=about.css.map */
