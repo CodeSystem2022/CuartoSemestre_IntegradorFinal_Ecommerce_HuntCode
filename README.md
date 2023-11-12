@@ -56,7 +56,7 @@ La aplicación proporciona una amplia gama de características y funcionalidades
 
 ### Etapa 3: Desarrollo
 
-- DISEÑO REPONSIVE
+- DISEÑO REPONSIVE (implementacion futura)
 - VELOCIDAD DE CARGA
 - CATÁLOGO DE VEHICULO
 - PASARELA DE PAGOS SEGURA
