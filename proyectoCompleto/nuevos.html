@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fast Cars Ventas</title>
+</head>
+<body>
+    <h1>Fast Cars</h1>
+    <h2>Autos 0km</h2>
+    <ul>
+        <li>
+           <a href="shop.html">Ventas</a>
+        </li>
+        
+        <li>
+            <a href="nuevos.html">Autos 0Km</a>
+         </li>
+        
+         <li>
+            <a href="usados.html">Autos Usados</a>
+         </li>
+         
+         <li>
+            <a href="camionetas.html">Camionetas</a>
+         </li>
+
+         <!--shop content-->
+    <div class="card-products-container">
+        <div class="card-products" id="shopContent"></div>
+    </div>
+    <!--cart-btn-->
+    <div class="cart-btn" id="cart-btn">🛒</div>
+    <!--cart counter-->
+    <span class="cart-counter" id="cart-counter">0</span>
+
+    <!--modak-->
+    <div class="modal-overlay" id="modal-overlay"></div>
+    <div class="modal-container" id="modal-container"></div>
+    </ul>
+    
+
+</body>
+
+<script src="../client/js/autosnuevos.js"></script>
+<script src="../client/js/cart.js"></script>
+<script src="../client/js/index.js"></script>
+
+<script src="https://sdk.mercadopago.com/js/v2"></script>
+
+</html>
